@@ -1,0 +1,564 @@
+@charset "utf-8";
+
+/****************
+* FONT FAMILIES *
+****************/
+@font-face {
+  font-family: raleway;
+  src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: ralewayItalic;
+  src: url(../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+/***********
+* DEFAULTS *
+***********/
+body {
+    background-color: #E0E4CC;
+}
+
+h1 {
+	font-family: Bebas Neue;
+	font-size: 15vw;
+	color: #111111;
+    text-align: center;
+}
+
+h2 {
+	font-family: raleway light;
+	font-size: 20pt;
+	color: #F38630;
+	text-align: center;
+}
+
+p {
+  font-family: raleway;
+  margin:0;
+  padding:0;
+}
+
+
+/*********
+* COLORS *
+*********/
+.bg-link-color-mirri {
+  background-color: #f8c6dc;
+  color: #111111;
+}
+
+.bg-page-color-mirri {
+  background-color: #F9E6EF;
+  color: #766029;
+}
+
+.bg-link-color-bananas {
+  background-color: #1b79be;
+  color:#E0E4CC;
+}
+
+.bg-page-color-bananas {
+  background-color:#FFFFFF;
+  color: #1b79be;
+}
+
+.bg-link-color-ebook {
+  background-color: #483e6c;
+  color:#E0E4CC;
+}
+
+.bg-page-color-ebook {
+  background-color: #483e6c;
+  color:#E0E4CC;
+}
+
+.bg-link-color-screams {
+  background-color: #fbab18;
+  color: #111111;
+}
+
+.bg-page-color-screams {
+  background-color: #fbab18;
+  color: #111111;
+}
+
+.bg-link-color-jay-ate{
+  background-color: #ecd078;
+  color: #111111;
+}
+
+.bg-page-color-jay-ate{
+  background-color: #ecd078;
+  color: #111111;
+}
+
+.bg-link-color-research {
+  background-color: #889c3a;
+  color:#E0E4CC;
+}
+
+.bg-page-color-research {
+  background-color: #889c3a;
+  color:#E0E4CC;
+}
+
+.bg-link-color-cbm {
+  background-color: #722b3d;
+  color:#E0E4CC;
+}
+
+.bg-page-color-cbm {
+  background-color: #722b3d;
+  color:#E0E4CC;
+}
+
+.bg-link-color-promo {
+  background-color: #56777c;
+  color: #111111;
+}
+
+.bg-page-color-promo {
+  background-color: #56777c;
+  color: #111111;
+}
+
+.bg-link-color-mcoa {
+  background-color: #102a4b;
+  color:#E0E4CC;
+}
+
+.bg-page-color-mcoa {
+  background-color: #102a4b;
+  color:#E0E4CC;
+}
+
+
+/******************
+* PORTFOLIO ITEMS *
+******************/
+.portfolio * {
+	box-sizing: border-box;
+}
+
+.portfolio {
+	width:100%;
+	box-sizing: border-box;
+    padding-top:30px
+}
+
+.portfolio:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.portfolio-item {
+  padding: 12px 15vw;
+}
+
+.portfolio-text {
+  margin:10px;
+  font-size:20px;
+  width:100%;
+  font-family: raleway;
+  font-variation-settings: 'wght' 350;
+}
+
+.portfolio a{
+  text-decoration: none;
+}
+
+.portfolio a:hover{
+  font-weight: bold;
+}
+
+/***********
+* ABOUT ME *
+***********/
+.about-me-container {
+  text-align: right;
+  margin:30px 14vw;
+}
+
+.about-me-section {
+  margin: 20px 10px;
+}
+
+.about-me-section p{
+  float:right;
+  width:50%;
+}
+
+.about-me-section .fab{
+  font-size: 50px;
+  color:#111111;
+}
+
+.section-title{
+  font-size:25px;
+  font-weight: bold;
+  font-variation-settings: 'wght' 500;
+}
+
+
+/*********
+* HEADER *
+*********/
+.header {
+  z-index: 1000;
+  position: fixed;
+  padding: 0px 16px 10px 16px;
+}
+
+.header-name {
+  font-family: Bebas Neue;
+  font-size: 15vw;
+  color: #111111;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  width: 100%;
+}
+
+.header-name-image {
+	width: 100%;
+	padding: 0 14vw;
+}
+
+
+/**********
+* COLUMNS *
+**********/
+.col {
+	float: left;
+	padding: 1%;
+}
+.col:first-child {
+	margin-left: 0%;
+}
+
+
+
+/***************
+* PAGE DETAILS *
+***************/
+
+.content {
+  padding-top:115px;
+}
+
+.page-content-padded {
+  padding:3% 15% 4% 15%;
+/*padding:3% 15.36% 4% 15.36%;*/
+}
+
+.page-image {
+  padding: 0% 10%;
+  width:100%;
+}
+
+.txt-right {
+  font-size: 1.3vw;
+  text-align: right;
+  padding-left: 6vw;
+}
+
+.txt-left {
+  font-size: 1.3vw;
+  text-align: left;
+  padding-right: 6vw;
+}
+
+.txt-center {
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.page-title {
+  font-family: raleway;
+  font-size: 2.9vw;
+  font-variation-settings: 'wght' 700;
+  display: inherit;
+  padding-bottom: 1%;
+}
+
+.page-subtitle {
+  font-family: raleway;
+  font-size: 1.4vw;
+  display: inherit;
+}
+
+.page-text-section {
+  font-family: raleway;
+  font-size: 1.3vw;
+  padding-bottom: 40px; 
+}
+
+.bananas-image {
+  padding-top:15%;
+}
+
+.bananas-image-og {
+  padding-top:15%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 75%;
+}
+
+.bkg-sticker {
+  background-image: url("../images/team-bananas/sticker_back.png");
+  height:100%;
+}
+
+.bananas-sticker {
+  margin:0 auto;
+  display:inherit;
+  padding:10% 0%;
+}
+
+.bananas-tropical {
+  width:100%;
+}
+
+.image-grid-bananas {
+  background-color: #1b79be;
+}
+
+.image-grid .col-md-4 {
+  padding:0;
+}
+
+.grid-image {
+  width:100%;
+}
+
+.image-text {
+    font-size: 1.3vw;
+/*  font-size:20pt; */
+/*  padding:0% 10%;*/
+  padding-top: 2%;
+}
+
+.ebook-grid .col-md-4 {
+  padding-top:5px;
+  padding-bottom: 16px;
+}
+
+.cbm-grid .col-md-6 {
+  padding-top:5px;
+  padding-bottom: 20px;
+}
+
+.ebook-grid .grid-image {
+  box-shadow: 3px 3px 15px #261c4a;
+}
+
+.cbm-grid .grid-image {
+  box-shadow: 3px 3px 15px #50091b;
+}
+
+.cbm-shadowbox {
+  box-shadow: 3px 3px 15px #50091b;
+}
+
+.no-padding {
+  padding:0;
+}
+
+.no-bottom-padding {
+  padding-bottom:0 !important;
+}
+
+/*************
+* ANIMATIONS *
+*************/
+/* .portfolio  {
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-name: slidein;
+} */
+
+.header, .content {
+  animation-duration: 0.75s;
+  animation-timing-function: ease;
+  animation-name: fadein;
+}
+
+/* .item-1 {
+  animation-duration: 0.5s;
+  animation-delay: 0s;
+  animation-timing-function: ease;
+  animation-name: slidein;
+}
+
+.item-2 {
+  animation-duration: 0.5s;
+  animation-delay: 0.01s;
+  animation-timing-function: ease;
+  animation-name: slidein;
+}
+
+.item-3 {
+  animation-duration: 0.5s;
+  animation-delay: 0.02s;
+  animation-timing-function: ease;
+  animation-name: slidein;
+}
+
+.item-4 {
+  animation-duration: 0.5s;
+  animation-delay: 0.03s;
+  animation-timing-function: ease;
+  animation-name: slidein;
+}
+
+.item-5 {
+  animation-duration: 0.5s;
+  animation-delay: 0.04s;
+  animation-timing-function: ease;
+  animation-name: slidein;
+}
+
+.item-6 {
+  animation-duration: 0.5s;
+  animation-delay: 0.05s;
+  animation-timing-function: ease;
+  animation-name: slidein;
+}
+
+.item-7 {
+  animation-duration: 0.5s;
+  animation-delay: 0.06s;
+  animation-timing-function: ease;
+  animation-name: slidein;
+}
+
+.item-8 {
+  animation-duration: 0.5s;
+  animation-delay: 0.07s;
+  animation-timing-function: ease;
+  animation-name: slidein;
+}
+
+.item-9 {
+  animation-duration: 0.5s;
+  animation-delay: 0.08s;
+  animation-timing-function: ease;
+  animation-name: slidein;
+} */
+
+/* .portfolio-item:hover{
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-name: indenthover;
+} */
+
+/*Parallax Effect*/
+.parallax-wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+.parallax-section {
+  position: relative;
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+}
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+
+
+.bg1::after {
+  background-image: url("../images/team-bananas/sticker_back.png");
+}
+
+/*
+.bg2::after {
+  background-image: url('https://i.imgur.com/8HmemNG.png');
+}
+*/
+
+
+#mirri-image:hover {
+  z-index: 0;
+  animation-name: transformimage;
+  animation-duration: 0.4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes indenthover {
+  from {
+    height: 54px;
+  }
+
+  50% {
+    height:75px;
+  }
+
+  to {
+    height: 54px;
+  }
+}
+
+@keyframes transformimage {
+  from {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  to {
+    transform: rotate(-5deg);
+  }
+}

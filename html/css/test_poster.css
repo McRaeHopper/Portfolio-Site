@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #A7DBD8;
+	margin: 0;
+}
+.main {
+	
+}
+.header {
+	width: 100%;
+	/*background-color: #ECD078;*/
+	position: fixed;
+	/*outline: dashed;
+	outline-color: greenyellow;*/
+}
+.half {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.album-art-title {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding-top: 100px;
+}
+.album-art {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-top: 100px;
+}
+
+.work {
+	max-width: 1000px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	/*outline: dashed;
+	outline-color: hotpink;*/
+}

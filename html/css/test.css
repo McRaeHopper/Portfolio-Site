@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #712C3D;
+	margin: 0;
+}
+.main {
+	
+}
+.header {
+	width: 100%;
+	background-color: #712C3D;
+	position: fixed;
+	/*outline: dashed;
+	outline-color: greenyellow;*/
+}
+.half {
+	max-width: 1000px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.work {
+
+	outline: dashed;
+	outline-color: hotpink;
+}
