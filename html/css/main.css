@@ -145,7 +145,7 @@ p {
 .portfolio {
 	width:100%;
 	box-sizing: border-box;
-    padding-top:30px
+    padding-top:50px
 }
 
 .portfolio:after {
@@ -179,19 +179,22 @@ p {
 ***********/
 .about-me-container {
   text-align: right;
-  margin:30px 14vw;
+  margin:30px /*14vw*/;
 }
 
 .about-me-section {
-  margin: 20px 10px;
+/*  margin: 20px 10px;*/
+    padding-left: 200px;
 }
 
+/*
 .about-me-section p{
   float:right;
   width:50%;
 }
+*/
 
-.about-me-section .fab{
+/*.about-me-section*/.fab{
   font-size: 50px;
   color:#111111;
 }
@@ -305,7 +308,7 @@ p {
   display:block;
   margin-left:auto;
   margin-right:auto;
-  width: 75%;
+  width: 55%;
 }
 
 .bkg-sticker {
@@ -362,6 +365,10 @@ p {
 
 .cbm-shadowbox {
   box-shadow: 3px 3px 15px #50091b;
+}
+
+.brp-shadowbox {
+  box-shadow: 3px 3px 15px #5c6928;
 }
 
 .no-padding {
