@@ -178,13 +178,19 @@ p {
 * ABOUT ME *
 ***********/
 .about-me-container {
-  text-align: right;
+/*  text-align: right;*/
+
   margin:30px /*14vw*/;
 }
 
 .about-me-section {
 /*  margin: 20px 10px;*/
-    padding-left: 200px;
+/*  padding-left: 200px;*/
+  text-align: justify;
+}
+
+.about-me-pic {
+    margin-bottom: 30px;
 }
 
 /*
@@ -324,6 +330,9 @@ p {
 
 .bananas-tropical {
   width:100%;
+  background-image: linear-gradient(169deg, #FFFFFF, #F4E00D, #F3903F);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .image-grid-bananas {
