@@ -306,15 +306,17 @@ p {
 }
 
 .bananas-image {
-  padding-top:15%;
+/*  padding-top:15%;*/
+  padding: 15% 0 0 0;
 }
 
 .bananas-image-og {
   padding-top:15%;
+  padding-bottom: 4%;
   display:block;
   margin-left:auto;
   margin-right:auto;
-  width: 55%;
+  width: 65%;
 }
 
 .bkg-sticker {
@@ -378,6 +380,10 @@ p {
 
 .brp-shadowbox {
   box-shadow: 3px 3px 15px #5c6928;
+}
+
+.album-shadowbox {
+  box-shadow: 3px 3px 15px #c0a962;
 }
 
 .no-padding {
