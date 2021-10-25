@@ -145,7 +145,7 @@ p {
 .portfolio {
 	width:100%;
 	box-sizing: border-box;
-    padding-top:50px
+    padding-top:50px;
 }
 
 .portfolio:after {
@@ -346,7 +346,7 @@ p {
 }
 
 .bananas-tropical {
-  width:100%;
+  width:100.65%;
   background-image: linear-gradient(169deg, #FFFFFF, #E0E4CC, #F4E00D, #ED683C);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -399,6 +399,10 @@ p {
 
 .album-shadowbox {
   box-shadow: 3px 3px 15px #AF9C5B;
+}
+
+.no-margin {
+    margin-right: 0 !important;
 }
 
 .no-padding {
