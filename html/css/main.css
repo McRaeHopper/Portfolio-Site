@@ -174,6 +174,10 @@ p {
   font-weight: bold;
 }
 
+.just-text {
+    text-align: justify;
+}
+
 /***********
 * ABOUT ME *
 ***********/
@@ -301,13 +305,24 @@ p {
 
 .page-text-section {
   font-family: raleway;
-  font-size: 1.3vw;
+  font-size: 1vw;
   padding-bottom: 40px; 
 }
 
 .bananas-image {
 /*  padding-top:15%;*/
   padding: 15% 0 0 0;
+}
+
+.album-image-top-margin {
+    margin: 15% 0 0 0;
+}
+
+.album-image {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
 }
 
 .bananas-image-og {
@@ -332,7 +347,7 @@ p {
 
 .bananas-tropical {
   width:100%;
-  background-image: linear-gradient(169deg, #FFFFFF, #F4E00D, #F3903F);
+  background-image: linear-gradient(169deg, #FFFFFF, #E0E4CC, #F4E00D, #ED683C);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -350,7 +365,7 @@ p {
 }
 
 .image-text {
-    font-size: 1.3vw;
+    font-size: 1vw;
 /*  font-size:20pt; */
 /*  padding:0% 10%;*/
   padding-top: 2%;
@@ -383,7 +398,7 @@ p {
 }
 
 .album-shadowbox {
-  box-shadow: 3px 3px 15px #c0a962;
+  box-shadow: 3px 3px 15px #AF9C5B;
 }
 
 .no-padding {
